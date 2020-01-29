@@ -1,0 +1,46 @@
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 338px;
+  position: relative;
+}
+
+.heading::before {
+  position: absolute;
+  content: "";
+  left: 2px;
+  bottom: -5px;
+  width: 38%;
+  background-color: #00AAEF;
+  height: 2px;
+}
+
+.heading::after {
+  position: absolute;
+  content: "";
+  right: 2px;
+  bottom: -5px;
+  width: 38%;
+  background-color: #00AAEF;
+  height: 2px;
+}
+
+.heading__text {
+  font-size: 48px;
+  line-height: 100%;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.heading__crown {
+  position: absolute;
+  bottom: -15px;
+}
+/*# sourceMappingURL=heading.css.map */

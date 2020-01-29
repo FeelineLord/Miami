@@ -1,0 +1,71 @@
+.contact-us {
+  padding: 8vw 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: white;
+}
+
+.contact-us__heading {
+  position: absolute;
+  top: -26px;
+  left: calc(50% - 139px);
+}
+
+.contact-us__contacts {
+  width: 37vw;
+  line-height: 36px;
+  color: black;
+  font-size: 24px;
+}
+
+.contact-us__contats_alt {
+  display: none;
+}
+
+.contact-us__item {
+  height: 12em;
+  resize: none;
+  padding-top: 1em;
+  overflow: hidden;
+}
+
+.contact-us__item::-webkit-input-placeholder {
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  padding-top: -1em;
+}
+
+.contact-us__item:-ms-input-placeholder {
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  padding-top: -1em;
+}
+
+.contact-us__item::-ms-input-placeholder {
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  padding-top: -1em;
+}
+
+.contact-us__item::placeholder {
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  padding-top: -1em;
+}
+/*# sourceMappingURL=contact-us.css.map */

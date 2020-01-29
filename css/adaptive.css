@@ -1,0 +1,310 @@
+@media screen and (min-width: 1600px) {
+  .testimonials__infoblock:nth-child(7) {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1401px) {
+  .nav__link {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .info__about-miami {
+    font-size: 64px;
+    min-width: calc(314px * 1.5);
+  }
+  .info__paragraph {
+    font-size: 24px;
+  }
+  .consultation {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .consultation__text {
+    width: 40vw;
+  }
+  .consultation__question {
+    font-size: 42px;
+    line-height: 120%;
+    color: black;
+  }
+  .consultation__paragraph {
+    color: black;
+    font-size: 24px;
+    line-height: 150%;
+  }
+  .testimonials__positions {
+    display: block;
+  }
+  .testimonials__infoblock:nth-child(5), .testimonials__infoblock:nth-child(6) {
+    display: block;
+  }
+  .contact-us__contacts {
+    font-size: 36px;
+    line-height: 150%;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .callback {
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
+  }
+  .callback__icon {
+    width: 50px;
+    height: 50px;
+  }
+  .nav__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .nav__item {
+    margin: 1vw 0;
+  }
+  .feedback-form {
+    width: 77vw;
+  }
+  .info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .gallery .gallery__photos-name {
+    font-size: 14px;
+  }
+  .consultation {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .consultation__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 77vw;
+    margin: 0 auto;
+    margin-bottom: 3vw;
+  }
+  .testimonials {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .testimonials__infoblock {
+    width: 68vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: start;
+    position: relative;
+    margin-bottom: 3vw;
+    border-bottom: 1px solid black;
+  }
+  .testimonials__photos {
+    margin: 0;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .testimonials__names {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .testimonials__positions {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    max-width: 150px;
+  }
+  .testimonials__reviews {
+    position: absolute;
+    top: 87px;
+    left: 170px;
+  }
+  .contact-us {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .contact-us__contacts {
+    margin-bottom: 1.5vw;
+  }
+}
+
+@media screen and (max-width: 449px) {
+  .nav__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 10vw 0 10vw;
+  }
+  .heading {
+    display: none;
+  }
+  .feedback-form {
+    width: 75vw;
+  }
+  .header {
+    background: url(../img/panoram-small.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+  }
+  .info {
+    padding: 6vw 6.5vw;
+  }
+  .info__about-miami {
+    text-align: center;
+    font-size: 36px;
+    min-width: 0px;
+  }
+  .info__paragraph {
+    display: none;
+  }
+  .info__paragraph_alt {
+    display: block;
+    text-align: center;
+  }
+  .info__alt-button {
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .gallery__photos-name {
+    font-size: 12px;
+  }
+  .gallery__photo-1 {
+    display: none;
+  }
+  .gallery__photo-2 {
+    display: none;
+  }
+  .gallery__photo-3 {
+    display: none;
+  }
+  .gallery__photo-4 {
+    display: none;
+  }
+  .gallery__photo-5 {
+    display: none;
+  }
+  .gallery__photo-6 {
+    display: none;
+  }
+  .gallery__photo-1_alt {
+    display: block;
+  }
+  .gallery__photo-2_alt {
+    display: block;
+  }
+  .gallery__photo-3_alt {
+    display: block;
+    width: 77vw;
+  }
+  .consultation__question {
+    display: none;
+  }
+  .consultation__alt-question {
+    display: block;
+  }
+  .consultation__paragraph {
+    display: none;
+  }
+  .testimonials {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 8vw 10vw;
+  }
+  .testimonials__infoblock {
+    width: 200px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    border: none;
+    margin: 0 auto 3vw auto;
+    position: static;
+  }
+  .testimonials__infoblock:nth-child(3), .testimonials__infoblock:nth-child(4) {
+    display: none;
+  }
+  .testimonials__photos {
+    margin: 0 auto;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 150px;
+    height: 150px;
+  }
+  .testimonials__names {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    max-width: 150px;
+    margin: 0 auto;
+  }
+  .testimonials__positions {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    max-width: 150px;
+    margin: 0 auto;
+  }
+  .testimonials__reviews {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+    position: relative;
+    max-width: 150px;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+  }
+  .testimonials__button {
+    display: block;
+    position: static;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact-us__contacts {
+    display: block;
+    width: 80vw;
+  }
+  .footer {
+    display: none;
+  }
+}
+/*# sourceMappingURL=adaptive.css.map */

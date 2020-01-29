@@ -1,0 +1,70 @@
+.feedback-form {
+  width: 39vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+}
+
+.feedback-form__item {
+  width: 100%;
+  margin: 0.5vw 0;
+  height: 54px;
+  color: black;
+  padding: 0;
+  border: none;
+  background-color: #EEEEEE;
+  text-indent: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.feedback-form__item::-webkit-input-placeholder {
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  color: black;
+  text-transform: uppercase;
+  text-indent: 0;
+}
+
+.feedback-form__item:-ms-input-placeholder {
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  color: black;
+  text-transform: uppercase;
+  text-indent: 0;
+}
+
+.feedback-form__item::-ms-input-placeholder {
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  color: black;
+  text-transform: uppercase;
+  text-indent: 0;
+}
+
+.feedback-form__item::placeholder {
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  color: black;
+  text-transform: uppercase;
+  text-indent: 0;
+}
+
+.feedback-form__item:last-child {
+  color: white;
+  background-color: #00AAEF;
+}
+
+.feedback-form__item:last-child:hover {
+  background-color: #009FEF;
+}
+/*# sourceMappingURL=feedback-form.css.map */

@@ -1,0 +1,16 @@
+.footer {
+  background: url(../img/bg-footer.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  height: 540px;
+  width: 100%;
+  position: relative;
+}
+
+.footer__logo {
+  position: absolute;
+  left: calc(50% - 54px);
+  bottom: 95px;
+}
+/*# sourceMappingURL=footer.css.map */

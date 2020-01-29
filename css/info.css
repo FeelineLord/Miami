@@ -1,0 +1,48 @@
+.info {
+  padding: 8vw 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  background-color: white;
+}
+
+.info__heading {
+  position: absolute;
+  top: -26px;
+  left: calc(50% - 113px);
+}
+
+.info__heading__text {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(55%, white), color-stop(45%, black));
+  background: linear-gradient(white 55%, black 45%);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.info__about-miami {
+  min-width: 314px;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 140%;
+}
+
+.info__paragraph {
+  min-width: 314px;
+  line-height: 150%;
+  text-transform: none;
+}
+
+.info__paragraph_alt {
+  font-size: 14px;
+  display: none;
+}
+
+.info__alt-button {
+  margin: 4vw auto;
+  display: none;
+}
+/*# sourceMappingURL=info.css.map */
